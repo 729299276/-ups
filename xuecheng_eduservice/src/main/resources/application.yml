@@ -1,0 +1,15 @@
+###服务启动端口号
+server:
+  port: 8300
+###服务名称(服务注册到eureka名称)
+spring:
+  application:
+    name: xuecheng-edu
+
+  datasource:
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.102.15:3306/wx?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
